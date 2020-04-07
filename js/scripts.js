@@ -3,7 +3,7 @@ $(document).ready(function(){
    
    $("#card1").hide()
    $("#card2").hide()
-    
+   $("#card3").hide()
    $("#item0").click(function( event ) {
     //event.preventDefault();
     
@@ -32,7 +32,15 @@ $(document).ready(function(){
         console.log(card.cardCount)
         
     });
-
+    
+    $("#item3").click(function( event ) {
+        //event.preventDefault();
+        
+        card.cardCount =3;
+        card.cardSwitch();
+        console.log(card.cardCount)
+        
+    });
 
     
    
@@ -40,35 +48,39 @@ $(document).ready(function(){
 
     
     
-    function Card(){
-    }    
+function Card(){
+}    
     
     
-    var card = new Card(); 
+var card = new Card(); 
   
 
-    Card.prototype.cardSwitch = function(){
+Card.prototype.cardSwitch = function(){
 
  if (this.cardCount ===0){
     $("#card0").show()
     $("#card1").hide()
     $("#card2").hide()
-        
-     }
-
-
- if (this.cardCount ===1){
+    $("#card3").hide()
+}else if 
+    (this.cardCount ===1){
     $("#card0").hide()
     $("#card1").show()
     $("#card2").hide()
-
-  }
-  if (this.cardCount ===2){
+    $("#card3").hide()
+}else if 
+    (this.cardCount ===2){
     $("#card0").hide()
     $("#card1").hide()
     $("#card2").show()
-
-  }
+    $("#card3").hide()          
+}else if 
+    (this.cardCount ===3){
+    $("#card0").hide()
+    $("#card1").hide()
+    $("#card2").hide()
+    $("#card3").show()          
+    }
 }          
         
 
