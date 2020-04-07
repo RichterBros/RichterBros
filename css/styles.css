@@ -21,17 +21,18 @@ img {
   .jumbotron p{
     font-weight: 300;
     font-size: 20px;
-   
-  
-  }
+   }
+
 
 #card1{
     position: relative;
     height:500px;
     width:1000px;
     border-radius: 0px 5px 5px 5px;
-    
-
+    border-width: 1px;
+  border-color: dark rgb(255, 0, 0);
+  
+  
   }
 
 #card2{
@@ -39,7 +40,24 @@ img {
     height:500px;
     width:1000px;
     border-radius: 0px 5px 5px 5px;
-   
+}
+#card3{
+  position: relative;
+  height:500px;
+  width:1000px;
+  border-radius: 0px 5px 5px 5px;
+
+}
+
+#card4{
+  position: relative;
+  height:500px;
+  width:1000px;
+  border-radius: 0px 5px 5px 5px;
+  border-width: 5px;
+  border-color: coral;
+
+
 }
 #img1{
     position: absolute;
@@ -48,8 +66,8 @@ img {
 }
 .container{
     
-    border:1px solid #ff0000;
-    padding: 100px;
+    
+    padding: 50px;
     
     
 }
