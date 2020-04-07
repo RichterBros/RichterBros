@@ -1,0 +1,65 @@
+img {
+    width: 450px;
+    height: auto;
+    border-radius: 1%;
+    overflow: none;
+  }
+  
+  #space{
+    letter-spacing: 10px;
+  }
+  
+  #floatLeft {
+    float: left;
+  }
+  
+  #topPad {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .jumbotron p{
+    font-weight: 300;
+    font-size: 20px;
+   
+  
+  }
+
+#card1{
+    position: relative;
+    height:500px;
+    width:1000px;
+    background:#DAF7A6 ;
+    border-radius: 0px 5px 5px 5px;
+
+
+  }
+
+#card2{
+    position: relative;
+    height:500px;
+    width:1000px;
+    border-radius: 0px 5px 5px 5px;
+   
+}
+#img1{
+    position: absolute;
+    height:0px;
+    width:0px;
+}
+.container{
+    
+    border:1px solid #ff0000;
+    padding: 100px;
+    
+    
+}
+.jumbotron{
+  border:1px solid #ff0000;
+}
+
+.btn-primary{
+
+  border-radius: 5px 5px 0px 0px;
+}
+
