@@ -1,8 +1,22 @@
+
+.jumbotron {
+  height:500px;
+  width:1000px;
+  border-radius: 0px 5px 5px 5px;
+  border-width: 1px;
+  border-color: #428bca;
+  border-style:solid;
+  background-color:#f7f7f7;
+}
+
 img {
     width: 450px;
     height: auto;
-    border-radius: 1%;
+    border-radius: 5px;
+    border-width: 1px;
     overflow: none;
+    border-color: #428bca;
+    border-style:solid;
   }
   
   #space{
@@ -24,38 +38,21 @@ img {
    }
 
 
-#card1{
-    position: relative;
-    height:500px;
-    width:1000px;
-    border-radius: 0px 5px 5px 5px;
-    border-width: 1px;
-  border-color: dark rgb(255, 0, 0);
+  #card1{
+   
   
   
   }
 
 #card2{
-    position: relative;
-    height:500px;
-    width:1000px;
-    border-radius: 0px 5px 5px 5px;
+    
 }
 #card3{
-  position: relative;
-  height:500px;
-  width:1000px;
-  border-radius: 0px 5px 5px 5px;
-
+  
 }
 
 #card4{
-  position: relative;
-  height:500px;
-  width:1000px;
-  border-radius: 0px 5px 5px 5px;
-  border-width: 5px;
-  border-color: coral;
+ 
 
 
 }
@@ -80,3 +77,9 @@ img {
 #item0{
   cursor: pointer;
 }
+  
+
+
+
+
+
