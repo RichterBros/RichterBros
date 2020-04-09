@@ -19,6 +19,16 @@ img {
     border-style:solid;
   }
   
+  #me {
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    overflow: none;
+    border-color: #428bca;
+    border-style:solid;
+    float: right;
+  }
   #space{
     letter-spacing: 10px;
   }
