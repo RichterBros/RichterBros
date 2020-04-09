@@ -1,12 +1,12 @@
 # _Portfolio Website_
 
-#### _{Website Showcasing Erich Richter}, {04-08-2020}_
+#### _Website Showcasing Erich Richter, 04-08-2020_
 
-#### By _**{Erich Richter}**_
+#### By _**Erich Richter**_
 
 ## Description
 
-_{Information on Erich Richter's skills, interests and ambitions}_
+_Information on Erich Richter's skills, interests and ambitions_
 
 ## Setup/Installation Requirements
 
@@ -16,18 +16,18 @@ _{Information on Erich Richter's skills, interests and ambitions}_
 
 ## Known Bugs
 
-_{none yet}_
+_none yet_
 
 ## Support and contact details
 
-_{erich.richter@gmail.com}_
+_erich.richter@gmail.com_
 
 ## Technologies Used
 
-_{html/css/js}_
+_html/css/js_
 
 ### License
 
-*{Richter License}*
+*Richter License*
 
-Copyright (c) 2020 **_{Erich Richter}_**
+Copyright (c) 2020 **_Erich Richter_**
