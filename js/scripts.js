@@ -7,64 +7,43 @@ $(document).ready(function(){
    $("#card4").hide()
    
    $("#item0").click(function( event ) {
-    //event.preventDefault();
+       card.cardCount=0;
+       card.cardSwitch();
+       console.log(card.cardCount)
+    });
     
-    card.cardCount =0;
-    card.cardSwitch();
-    console.log(card.cardCount)
-    
-});
-   
-   
-   
-   $("#item1").click(function( event ) {
-        //event.preventDefault();
-        
-        card.cardCount =1;
+    $("#item1").click(function( event ) {
+        card.cardCount=1;
         card.cardSwitch();
         console.log(card.cardCount)
-        
     });
 
     $("#item2").click(function( event ) {
-        //event.preventDefault();
-        
-        card.cardCount =2;
+        card.cardCount=2;
         card.cardSwitch();
         console.log(card.cardCount)
-        
     });
     
     $("#item3").click(function( event ) {
-        //event.preventDefault();
-        
-        card.cardCount =3;
+        card.cardCount=3;
         card.cardSwitch();
         console.log(card.cardCount)
-        
     });
 
     $("#item4").click(function( event ) {
-        //event.preventDefault();
-        
-        card.cardCount =4;
+        card.cardCount=4;
         card.cardSwitch();
         console.log(card.cardCount)
-        
     });
-    
-   
 });
 
-    
-    
 function Card(){}    
     
 var card = new Card(); 
   
 Card.prototype.cardSwitch = function(){
 
- if (this.cardCount ===0){
+if (this.cardCount ===0){
     $("#card0").show()
     $("#card1").hide()
     $("#card2").hide()
@@ -103,66 +82,7 @@ Card.prototype.cardSwitch = function(){
         
 
     
-
-
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        //     //$(this).css({"background-color":"red"});
-    //     $("#card1").toggle();
-       
-        
-    //     $("#card2").hide();
-       
-           
-      
-    // });   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //     $("#item2").click(function( event ) {
-    //         $("#card2").toggle()
-       
-    //         $("#card1").hide();
-          
-        
-        
-        
-    //     });
-    
-    
-    
-       
-    // });
     
     
     

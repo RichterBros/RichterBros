@@ -2,92 +2,70 @@
 .jumbotron {
   height:500px;
   width:1000px;
-  border-radius: 0px 5px 5px 5px;
-  border-width: 1px;
-  border-color: #428bca;
+  border-radius:0px 5px 5px 5px;
+  border-width:1px;
+  border-color:#428bca;
   border-style:solid;
   background-color:#f7f7f7;
 }
 
 img {
-    width: 450px;
-    height: auto;
-    border-radius: 5px;
-    border-width: 1px;
-    overflow: none;
-    border-color: #428bca;
-    border-style:solid;
-  }
-  
-  #me {
-    width: 350px;
-    height: auto;
-    border-radius: 5px;
-    border-width: 1px;
-    overflow: none;
-    border-color: #428bca;
-    border-style:solid;
-    float: right;
-  }
-  #space{
-    letter-spacing: 10px;
-  }
-  
-  #floatLeft {
-    float: left;
-  }
-  
-  #topPad {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .jumbotron p{
-    font-weight: 300;
-    font-size: 20px;
-   }
-
-
-  #card1{
-   
-  
-  
-  }
-
-#card2{
-    
+  width:450px;
+  height:auto;
+  border-radius:5px;
+  border-width:1px;
+  overflow:none;
+  border-color:#428bca;
+  border-style:solid;
 }
-#card3{
   
+#me {
+  width:350px;
+  height:auto;
+  border-radius:5px;
+  border-width:1px;
+  overflow:none;
+  border-color:#428bca;
+  border-style:solid;
+  float:right;
 }
 
-#card4{
- 
-
-
+#space{
+  letter-spacing:10px;
 }
+
+#floatLeft {
+  float:left;
+}
+
+#topPad {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.jumbotron p{
+  font-weight:300;
+  font-size:20px;
+}
+
 #img1{
-    position: absolute;
-    height:0px;
-    width:0px;
+  position: absolute;
+  height:0px;
+  width:0px;
 }
+
 .container{
-    
-    
-    padding: 50px;
-    
-    
+  padding:50px;
 }
 
 .btn-primary{
-
-  border-radius: 5px 5px 0px 0px;
+  border-radius:5px 5px 0px 0px;
 }
 
 #item0{
-  cursor: pointer;
+  cursor:pointer;
 }
-  
+
 
 
 
